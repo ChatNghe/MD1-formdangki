@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    table{
+      background:lightyellow;
+      border: 10px solid lightyellow;
+    }
+    th{
+      background: lightskyblue;
+      font-size: 20px;
+      color: white;
+    }
+    input{
+      border: outset;
+    }
+    td{
+      color: blue;
+    }
+    textarea{
+      border: outset;
+    }
+
+  </style>
+</head>
+
+<body>
+<form>
+  <table>
+    <th colspan="4" align="left">Đăng kí học viên</th>
+    <tr>
+      <td>Họ và tên</td>
+      <td colspan="2">
+        <input type="text">
+      </td>
+    </tr>
+    <tr>
+      <td>Ngày sinh</td>
+      <td colspan="2">
+        <input type="text">
+      </td>
+    </tr>
+    <tr>
+      <td>Giới tính</td>
+      <td><input type="radio" name="rd"> Nam
+      <input type="radio" name="rd"> Nữ</td>
+
+    <tr>
+    <tr>
+      <td>Địa chỉ</td>
+      <td><textarea name="message" rows="3" cols="20"></textarea></td>
+
+    </tr>
+    <tr>
+      <td>Lớp</td>
+      <td><select>
+        <option>-Chọn lớp-</option>
+        <option>A</option>
+        <option>B</option>
+        <option>C</option>
+      </select></td>
+
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td><input type="text"> </td>
+
+    </tr>
+    <tr>
+      <td>Điện thoại</td>
+      <td><input type="text"> </td>
+
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+        <input type="submit" value="Gửi thông tin">
+
+
+        <input type="submit" value="Nhập lại">
+      </td>
+
+    </tr>
+  </table>
+</form>
+
+</body>
+</html>
